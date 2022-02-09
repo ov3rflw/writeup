@@ -1,7 +1,3 @@
-# Hacker101
-Writeup de certains challenges provenant de la plateforme Hacker101 (https://ctf.hacker101.com/ctf)
-
-
 ## BugDB v1 
 
 Ce challenge est basé sur GraphQL (https://graphql.org/). <br><br>

@@ -114,9 +114,9 @@ CTF très sympa qui nous impose de switch sur plusieurs services pour accéder a
 
 ## Ressources
 
-https://youtu.be/XvVymXvEgno
-https://book.hacktricks.xyz/pentesting/6379-pentesting-redis
-https://github.com/delano/redis-dump
-https://linuxize.com/post/how-to-mount-an-nfs-share-in-linux/
-https://book.hacktricks.xyz/pentesting/873-pentesting-rsync
+https://youtu.be/XvVymXvEgno \
+https://book.hacktricks.xyz/pentesting/6379-pentesting-redis \
+https://github.com/delano/redis-dump \
+https://linuxize.com/post/how-to-mount-an-nfs-share-in-linux/ \
+https://book.hacktricks.xyz/pentesting/873-pentesting-rsync \
 https://www.ssh.com/academy/ssh/tunneling/example

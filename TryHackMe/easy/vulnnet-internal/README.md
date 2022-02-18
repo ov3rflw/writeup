@@ -40,7 +40,7 @@ sudo mount -t nfs 10.10.155.81:/ nfs
 ```
 ![image](https://user-images.githubusercontent.com/68467919/154630022-8d363157-4036-465b-9d81-19e06955b94e.png)
 
-Jettons un oeil au fichier **redis.conf**
+Jetons un oeil au fichier **redis.conf**
 
 ![image](https://user-images.githubusercontent.com/68467919/154630074-f61b4f02-eec7-4ee0-9133-e24600199251.png)
 

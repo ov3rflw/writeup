@@ -110,7 +110,7 @@ Dans "**Runner type**", choisir "**Command Line**" puis rentrer votre reverse-sh
 
 ### Notes personnelles
 
-CTF très sympa qui nous impose de switch sur plusieurs services pour accéder au root. Cette room m'a permis de découvrir comment fonctionner certains services et quel type de vulnérabilité pouvait être utilisé.
+CTF très sympa qui nous impose de switch sur plusieurs services pour accéder au root. Cette room m'a permis de découvrir comment fonctionne certains services et quel type de vulnérabilité pouvait être utilisé.
 
 ## Ressources
 

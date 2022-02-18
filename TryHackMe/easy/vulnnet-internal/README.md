@@ -50,7 +50,7 @@ Super, nous avons trouvé le requirepass qui pourrait nous permettre de nous con
 
 ![image](https://user-images.githubusercontent.com/68467919/154630495-9739bce7-2fa8-44df-8f38-76f016d9e517.png)
 
-Donc nous pouvons nous connecter à Redis avec ce mot de passe. Après quelques recherches intéressantes pour essayer de trouver une vulnérabilité sur Redis, il est possible de DUMP la base de donnnée avec le tools **redis-dump** si nous possédons un mot de passe.
+Donc nous pouvons nous connecter à Redis avec ce mot de passe. Après quelques recherches intéressantes pour essayer de trouver une vulnérabilité sur Redis, il est possible de DUMP la base de donnée avec le tools **redis-dump** si nous possédons un mot de passe.
 
 ## Flag 2
 <ins>Hint</ins>: It's stored inside a database of one of the services.

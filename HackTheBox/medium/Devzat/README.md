@@ -153,7 +153,6 @@ Après une recherche sur internet, je tombe sur ce repo Github.
 [GitHub - LorenzoTullini/InfluxDB-Exploit-CVE-2019-20933: InfluxDB CVE-2019-20933 vulnerability exploit](https://github.com/LorenzoTullini/InfluxDB-Exploit-CVE-2019-20933)
 
 ![image](https://user-images.githubusercontent.com/68467919/155147951-884a5933-fd4f-4091-8473-f464e54bd317.png)
-Nous pouvons voir que le service est vulnérable. 
 
 Maintenant, nous devons selectionner la base de donnée que nous voulons explorer.
 

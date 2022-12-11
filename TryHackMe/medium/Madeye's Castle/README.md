@@ -21,69 +21,6 @@ PORT    STATE SERVICE     REASON         VERSION
 |_http-title: Apache2 Ubuntu Default Page: Amazingly It works
 139/tcp open  netbios-ssn syn-ack ttl 63 Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
 445/tcp open  netbios-ssn syn-ack ttl 63 Samba smbd 4.7.6-Ubuntu (workgroup: WORKGROUP)
-Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
-OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
-Aggressive OS guesses: Crestron XPanel control system (90%), ASUS RT-N56U WAP (Linux 3.4) (87%), Linux 3.1 (87%), Linux 3.16 (87%), Linux 3.2 (87%), HP P2000 G3 NAS device (87%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (87%), Linux 2.6.32 (86%), Linux 2.6.32 - 3.1 (86%), Linux 2.6.39 - 3.2 (86%)
-No exact OS matches for host (test conditions non-ideal).
-TCP/IP fingerprint:
-SCAN(V=7.93%E=4%D=12/11%OT=22%CT=%CU=%PV=Y%G=N%TM=63961748%P=x86_64-pc-linux-gnu)
-SEQ(SP=108%GCD=1%ISR=10B%TI=Z%II=I%TS=A)
-SEQ(SP=108%GCD=1%ISR=10B%TI=Z%TS=A)
-OPS(O1=M505ST11NW7%O2=M505ST11NW7%O3=M505NNT11NW7%O4=M505ST11NW7%O5=M505ST11NW7%O6=M505ST11)
-WIN(W1=F4B3%W2=F4B3%W3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)
-ECN(R=Y%DF=Y%TG=40%W=F507%O=M505NNSNW7%CC=Y%Q=)
-T1(R=Y%DF=Y%TG=40%S=O%A=S+%F=AS%RD=0%Q=)
-T2(R=N)
-T3(R=N)
-T4(R=Y%DF=Y%TG=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
-U1(R=N)
-IE(R=Y%DFI=N%TG=40%CD=S)
-
-Uptime guess: 13.952 days (since Sun Nov 27 19:55:18 2022)
-TCP Sequence Prediction: Difficulty=264 (Good luck!)
-IP ID Sequence Generation: All zeros
-Service Info: Host: HOGWARTZ-CASTLE; OS: Linux; CPE: cpe:/o:linux:linux_kernel
-
-Host script results:
-| smb2-time: 
-|   date: 2022-12-11T17:45:03
-|_  start_date: N/A
-| smb-security-mode: 
-|   account_used: guest
-|   authentication_level: user
-|   challenge_response: supported
-|_  message_signing: disabled (dangerous, but default)
-| smb2-security-mode: 
-|   311: 
-|_    Message signing enabled but not required
-| smb-os-discovery: 
-|   OS: Windows 6.1 (Samba 4.7.6-Ubuntu)
-|   Computer name: hogwartz-castle
-|   NetBIOS computer name: HOGWARTZ-CASTLE\x00
-|   Domain name: \x00
-|   FQDN: hogwartz-castle
-|_  System time: 2022-12-11T17:45:03+00:00
-|_clock-skew: mean: -1s, deviation: 0s, median: -1s
-| p2p-conficker: 
-|   Checking for Conficker.C or higher...
-|   Check 1 (port 31628/tcp): CLEAN (Timeout)
-|   Check 2 (port 55729/tcp): CLEAN (Timeout)
-|   Check 3 (port 18354/udp): CLEAN (Timeout)
-|   Check 4 (port 42872/udp): CLEAN (Timeout)
-|_  0/4 checks are positive: Host is CLEAN or ports are blocked
-| nbstat: NetBIOS name: HOGWARTZ-CASTLE, NetBIOS user: <unknown>, NetBIOS MAC: 000000000000 (Xerox)
-| Names:
-|   HOGWARTZ-CASTLE<00>  Flags: <unique><active>
-|   HOGWARTZ-CASTLE<03>  Flags: <unique><active>
-|   HOGWARTZ-CASTLE<20>  Flags: <unique><active>
-|   \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
-|   WORKGROUP<00>        Flags: <group><active>
-|   WORKGROUP<1d>        Flags: <unique><active>
-|   WORKGROUP<1e>        Flags: <group><active>
-| Statistics:
-|   0000000000000000000000000000000000
-|   0000000000000000000000000000000000
-|_  0000000000000000000000000000
 ```
 
 ## SMB | Énumération

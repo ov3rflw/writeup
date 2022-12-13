@@ -229,11 +229,11 @@ Machine attaquante :
 nc -lvnp 1337
 ```
 
+![Untitled 11](https://user-images.githubusercontent.com/68467919/207140910-de8be41e-f4e4-4b52-b0fd-11149ecc4aa3.png)
+
 ## Docker | Root
 
 Quand nous regardons dans quel groupe nous appartenons, nous pouvoir voir que nous sommes dans le groupe docker.
-
-![Untitled 11](https://user-images.githubusercontent.com/68467919/207140910-de8be41e-f4e4-4b52-b0fd-11149ecc4aa3.png)
 
 Sur GTFOBins, la première commande nous permet de pouvoir nous élever en tant que root.
 

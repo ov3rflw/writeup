@@ -179,6 +179,8 @@ Donc ce que je comprends ici, c’est que l’utilisateur system envoi ce messag
 
 Nous pouvons donc exécuter un script sans utiliser de mot de passe sous l’utilisateur michael.
 
+![Untitled 10](https://user-images.githubusercontent.com/68467919/207140809-eff8b7d3-44a1-40fc-baa4-2c0611515f85.png)
+
 ### [backup.sh](http://backup.sh) | Wildcard Injection
 
 ```sql
@@ -226,8 +228,6 @@ Machine attaquante :
 
 nc -lvnp 1337
 ```
-
-![Untitled 10](https://user-images.githubusercontent.com/68467919/207140809-eff8b7d3-44a1-40fc-baa4-2c0611515f85.png)
 
 ## Docker | Root
 

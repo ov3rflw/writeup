@@ -73,7 +73,7 @@ En cherchant une vulnérabilité lié à la version du Wordpress, je suis tombé
 
 La vulnérabilité permet à tout utilisateur enregistré d'obtenir un accès administrateur. 
 
-Au lieu de vérifier si l'utilisateur actuel a le droit de modifier les profiles (capacité WP "edit_users"), la fonction vulnérable vérifie si l'utilisateur courant a le droit de modifier l'utilisateur (fonction WP "edit_user") spécifié par l'identifiant utilisateur fourni (variable "user_id"/paramètre HTTP POST).
+Au lieu de vérifier si l'utilisateur actuel a le droit de modifier les profiles (capacité WP "edit_users"), la fonction vulnérable vérifie si l'utilisateur courant a le droit de modifier l'utilisateur (fonction WP "edit_user") spécifié par l'identifiant fourni (variable "user_id"/paramètre HTTP POST).
 
 Cette vulnérabilité permet à un utilisateur authentifié d'ajouter un éditeur de rôle à son profil, en les spécifiant via le paramètre "ure_other_roles" dans la requête HTTP POST au module "profile.php" (émise lorsque "Update Profile" est cliqué).
 

@@ -152,9 +152,6 @@ Pour pouvoir accéder depuis notre machine au service Jenkins, j’ai décidé d
 
 Désormais, en nous rendant en [localhost](http://localhost) sur le port 8889, nous pouvons utiliser le service Jenkins et pouvoir commencer à investiguer !
 
-![Untitled 5](https://user-images.githubusercontent.com/68467919/209453905-9acb4bdd-c176-47af-8022-f7f666f0f4cd.png)
-
-
 ### Bruteforce (oui encore)
 
 En tombant sur ce poste sur StackOverflow, j’ai pensé à essayer de créer un nouvel utilisateur via */securityRealm/addUser* mais en analysant la réponse de la requête sur BurpSuite, il m’est indiqué qu’il est impossible pour moi de pouvoir le faire étant donné que je suis authentifié en tant qu’anonymous.

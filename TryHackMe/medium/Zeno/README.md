@@ -439,7 +439,7 @@ Nous pouvons nous connecter en SSH en ajoutant notre clé public au fichier auth
 
 Le fichier ***zeno-monitoring.service*** est très intéressant et pourrait nous permettre d’obtenir un shell ou de faire ce que nous voulons sur la machine. 
 
-Alors pourquoi ce fichier la et pas un autre? Nous avons le droit d’exécuter la commande reboot en tant que root sur la machine. En rebootant la machine, la partie “**ExecStart**” va donc s’exécuter (comme son nom l’indique) quand la machine aura redémarré. Nous pouvons donc rentrer n’importe quelle commande. 
+Alors pourquoi ce fichier la et pas un autre? Nous avons le droit d’exécuter la commande reboot en tant que root sur la machine et les commandes exécutés s'exécuteront sous l'utilisateur root. En rebootant la machine, la partie “**ExecStart**” va donc s’exécuter (comme son nom l’indique) quand la machine aura redémarré. Nous pouvons donc rentrer n’importe quelle commande. 
 
 [Privilege Escalation: Leveraging misconfigured systemctl permissions](https://medium.com/@klockw3rk/privilege-escalation-leveraging-misconfigured-systemctl-permissions-bc62b0b28d49)
 

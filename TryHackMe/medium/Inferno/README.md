@@ -12,8 +12,6 @@ Infos: **security**, **rce**, **oscp**, **vulnhub**
 
 ---
 
-Énumération
-
 ### Nmap
 
 ```bash
